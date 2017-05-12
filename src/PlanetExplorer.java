@@ -51,6 +51,7 @@ public class PlanetExplorer {
 				int a = vozilo.getY();
 				a++;
 				vozilo.setX(a);
+				toString(vozilo.getY(),vozilo.getX());
 				
 			} 
 			

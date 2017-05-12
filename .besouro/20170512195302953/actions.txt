@@ -112,3 +112,6 @@ RefactoringAction 1494614060247 TestPlanetExplorer.java ADD void test_STring FIE
 RefactoringAction 1494614062821 TestPlanetExplorer.java RENAME test_STring=>void test_String() METHOD
 EditAction 1494614168325 PlanetExplorer.java 2095 10 17 0
 EditAction 1494614171726 TestPlanetExplorer.java 401 2 5 1
+UnitTestCaseAction 1494614177016 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494614177016 TestPlanetExplorer.java FAIL
+EditAction 1494614220417 PlanetExplorer.java 2138 10 17 0
