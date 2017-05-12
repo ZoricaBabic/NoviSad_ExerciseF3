@@ -50,14 +50,14 @@ public class PlanetExplorer {
 				int a = vozilo.getY();
 				a++;
 				vozilo.setY(a);
-				return toString(vozilo.getY(),vozilo.getX());
+				return toString(vozilo.getX(),vozilo.getY());
 
 			} else if (side=="J"){
 
 				int a = vozilo.getY();
 				a--;
 				vozilo.setY(a);
-				return toString(vozilo.getY(),vozilo.getX());
+				return toString(vozilo.getX(),vozilo.getY());s
 
 			}
 
