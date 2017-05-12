@@ -131,3 +131,8 @@ UnitTestSessionAction 1494614648700 TestPlanetExplorer.java FAIL
 EditAction 1494614719277 TestPlanetExplorer.java 686 3 9 2
 RefactoringAction 1494614730634 TestPlanetExplorer.java REMOVE vozilo FIELD
 EditAction 1494614732646 TestPlanetExplorer.java 644 3 8 2
+UnitTestCaseAction 1494614740977 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494614740977 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494614816376 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494614816376 TestPlanetExplorer.java FAIL
+EditAction 1494614942925 PlanetExplorer.java 2519 14 21 0

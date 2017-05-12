@@ -53,7 +53,15 @@ public class PlanetExplorer {
 				vozilo.setX(a);
 				return toString(vozilo.getY(),vozilo.getX());
 				
-			} 
+			} else if (side=="J"){
+				
+				int a = vozilo.getY();
+				a--;
+				vozilo.setX(a);
+				return toString(vozilo.getY(),vozilo.getX());
+				
+				
+			}
 			
 			
 

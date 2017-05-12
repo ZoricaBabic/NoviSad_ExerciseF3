@@ -30,7 +30,8 @@ public class TestPlanetExplorer {
 		explorer.setSide("N");
 		
 		
-		String expected = "(" + explorer.getVozilo().getX() + "," + explorer.getVozilo().getY()+1  + ")";
+		String expected = "(" + explorer.getVozilo().getX() + "," + (explorer.getVozilo().getY()+1)  + ")";
+		
 		assertEquals(expected,explorer.executeCommand("f"));
 		
 		
