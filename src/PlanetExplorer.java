@@ -45,14 +45,14 @@ public class PlanetExplorer {
 
 		if(command=="f"){
 
-			if(side=="N"){
+			
 
 				int a = vozilo.getY();
 				a++;
 				vozilo.setY(a);
 				return toString(vozilo.getX(),vozilo.getY());
 
-			} 
+			
 		} else if(command == "b"){
 
 			int a = vozilo.getY();

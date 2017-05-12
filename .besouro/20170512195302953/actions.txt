@@ -178,3 +178,14 @@ EditAction 1494615875814 PlanetExplorer.java 2488 14 20 0
 UnitTestCaseAction 1494615888107 TestPlanetExplorer.java OK
 UnitTestSessionAction 1494615888123 TestPlanetExplorer.java OK
 EditAction 1494615938262 PlanetExplorer.java 2581 14 20 0
+RefactoringAction 1494615952712 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1494615954272 TestPlanetExplorer.java RENAME test_=>void test_l() METHOD
+CompilationAction 1494616015878 TestPlanetExplorer.java
+CompilationAction 1494616015878 TestPlanetExplorer.java
+CompilationAction 1494616015878 TestPlanetExplorer.java
+CompilationAction 1494616021915 TestPlanetExplorer.java
+CompilationAction 1494616021915 TestPlanetExplorer.java
+CompilationAction 1494616021915 TestPlanetExplorer.java
+UnitTestCaseAction 1494616028873 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616028873 TestPlanetExplorer.java FAIL
+EditAction 1494616057250 PlanetExplorer.java 2565 14 20 0
