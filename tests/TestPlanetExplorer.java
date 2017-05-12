@@ -6,10 +6,6 @@ public class TestPlanetExplorer {
 	
 	PlanetExplorer explorer = new PlanetExplorer(3,3);
 
-	@Test
-	public void test_executeCommand() {
-		fail("Not yet implemented");
-	}
 	
 	@Test
 	public void test_String(){
@@ -33,10 +29,24 @@ public class TestPlanetExplorer {
 		String expected = "(" + explorer.getVozilo().getX() + "," + (explorer.getVozilo().getY()+1)  + ")";
 		
 		assertEquals(expected,explorer.executeCommand("f"));
+			
+		
+	}
+	
+	@Test
+	public void test_fJ(){
 		
 		
+		explorer.setSide("J");
+		
+		explorer.getVozilo().setX(0);
+		explorer.getVozilo().setY(1);
 		
 		
+		String expected = "(" + explorer.getVozilo().getX() + "," + (explorer.getVozilo().getY()-1)  + ")";
+		
+		assertEquals(expected,explorer.executeCommand("f"));
+			
 		
 	}
 }

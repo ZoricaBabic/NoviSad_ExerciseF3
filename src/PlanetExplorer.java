@@ -42,7 +42,7 @@ public class PlanetExplorer {
 
 	public String executeCommand(String command){
 
-		PlanetExplorer ex = new PlanetExplorer(x,y);
+		
 		
 		if(command=="f")
 			
@@ -50,14 +50,14 @@ public class PlanetExplorer {
 
 				int a = vozilo.getY();
 				a++;
-				vozilo.setX(a);
+				vozilo.setY(a);
 				return toString(vozilo.getY(),vozilo.getX());
 				
 			} else if (side=="J"){
 				
 				int a = vozilo.getY();
 				a--;
-				vozilo.setX(a);
+				vozilo.setY(a);
 				return toString(vozilo.getY(),vozilo.getX());
 				
 				

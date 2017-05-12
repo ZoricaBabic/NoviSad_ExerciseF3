@@ -136,3 +136,17 @@ UnitTestSessionAction 1494614740977 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1494614816376 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494614816376 TestPlanetExplorer.java FAIL
 EditAction 1494614942925 PlanetExplorer.java 2519 14 21 0
+RefactoringAction 1494614955810 TestPlanetExplorer.java ADD void test_fN()/2 METHOD
+RefactoringAction 1494614958930 TestPlanetExplorer.java RENAME test_fN()/2=>void test_fJ() METHOD
+RefactoringAction 1494614986808 TestPlanetExplorer.java RENAME explorer=>PlanetExplorer c FIELD
+RefactoringAction 1494614990942 TestPlanetExplorer.java RENAME c=>PlanetExplorer explorer FIELD
+RefactoringAction 1494615008492 TestPlanetExplorer.java REMOVE test_executeCommand() METHOD
+UnitTestCaseAction 1494615043452 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615043452 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494615094730 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615094730 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494615108162 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615108177 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494615277719 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615277719 TestPlanetExplorer.java FAIL
+EditAction 1494615337910 PlanetExplorer.java 2475 14 20 0
