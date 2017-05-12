@@ -175,3 +175,6 @@ UnitTestCaseAction 1494615804640 TestPlanetExplorer.java OK
 UnitTestSessionAction 1494615804640 TestPlanetExplorer.java OK
 RefactoringAction 1494615866152 TestPlanetExplorer.java RENAME test_fJ()=>void test_b() METHOD
 EditAction 1494615875814 PlanetExplorer.java 2488 14 20 0
+UnitTestCaseAction 1494615888107 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494615888123 TestPlanetExplorer.java OK
+EditAction 1494615938262 PlanetExplorer.java 2581 14 20 0
