@@ -33,10 +33,8 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_fJ(){
+	public void test_b(){
 		
-		
-		explorer.setSide("J");
 		
 		explorer.getVozilo().setX(0);
 		explorer.getVozilo().setY(1);
@@ -44,7 +42,7 @@ public class TestPlanetExplorer {
 		
 		String expected = "(" + explorer.getVozilo().getX() + "," + (explorer.getVozilo().getY()-1)  + ")";
 		
-		assertEquals(expected,explorer.executeCommand("f"));
+		assertEquals(expected,explorer.executeCommand("b"));
 			
 	}
 }

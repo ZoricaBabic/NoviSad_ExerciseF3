@@ -54,14 +54,19 @@ public class PlanetExplorer {
 
 			} else if (side=="J"){
 
-				int a = vozilo.getY();
-				a--;
-				vozilo.setY(a);
-				return toString(vozilo.getX(),vozilo.getY());s
+				
 
 			}
-
-
+		} else if(command == "b"){
+			
+			int a = vozilo.getY();
+			a--;
+			vozilo.setY(a);
+			return toString(vozilo.getX(),vozilo.getY());
+			
+			
+			
+			
 		}
 
 
