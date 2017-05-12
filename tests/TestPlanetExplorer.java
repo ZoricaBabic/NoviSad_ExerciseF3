@@ -83,9 +83,7 @@ public class TestPlanetExplorer {
 		String expected = "(" + (explorer.getVozilo().getX()+2) + "," + (explorer.getVozilo().getY()+1)  + ")";
 		explorer.executeCommand("f");
 		explorer.executeCommand("r");
-		
 		assertEquals(expected,explorer.executeCommand("r"));
-
 
 	}
 	

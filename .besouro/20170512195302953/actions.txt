@@ -203,3 +203,9 @@ RefactoringAction 1494616203893 TestPlanetExplorer.java RENAME test_()=>void tes
 UnitTestCaseAction 1494616314226 TestPlanetExplorer.java OK
 UnitTestSessionAction 1494616314226 TestPlanetExplorer.java OK
 EditAction 1494616466372 PlanetExplorer.java 2711 14 20 0
+CompilationAction 1494616482067 TestPlanetExplorer.java
+CompilationAction 1494616482083 TestPlanetExplorer.java
+CompilationAction 1494616482083 TestPlanetExplorer.java
+CompilationAction 1494616491974 TestPlanetExplorer.java
+CompilationAction 1494616491974 TestPlanetExplorer.java
+CompilationAction 1494616491974 TestPlanetExplorer.java
