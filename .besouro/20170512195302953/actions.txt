@@ -124,3 +124,5 @@ RefactoringAction 1494614292696 PlanetExplorer.java ADD Vozilo getVozilo() METHO
 RefactoringAction 1494614292696 PlanetExplorer.java ADD void setVozilo(Vozilo) METHOD
 RefactoringAction 1494614324085 TestPlanetExplorer.java ADD Vozilo vozilo FIELD
 EditAction 1494614632850 TestPlanetExplorer.java 657 3 9 2
+CompilationAction 1494614638872 TestPlanetExplorer.java
+EditAction 1494614642741 PlanetExplorer.java 2373 14 21 0

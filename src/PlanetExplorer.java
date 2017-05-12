@@ -51,7 +51,7 @@ public class PlanetExplorer {
 				int a = vozilo.getY();
 				a++;
 				vozilo.setX(a);
-				toString(vozilo.getY(),vozilo.getX());
+				return toString(vozilo.getY(),vozilo.getX());
 				
 			} 
 			
@@ -103,6 +103,26 @@ public class PlanetExplorer {
 
 	public void setObstacles(String obstacles) {
 		this.obstacles = obstacles;
+	}
+
+
+	public String getSide() {
+		return side;
+	}
+
+
+	public void setSide(String side) {
+		this.side = side;
+	}
+
+
+	public Vozilo getVozilo() {
+		return vozilo;
+	}
+
+
+	public void setVozilo(Vozilo vozilo) {
+		this.vozilo = vozilo;
 	}
 
 	
