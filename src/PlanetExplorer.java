@@ -68,6 +68,15 @@ public class PlanetExplorer {
 			return toString(vozilo.getX(),vozilo.getY());
 			
 			
+		} else if(command == "r"){
+			
+			int a = vozilo.getX();
+			a++;
+			vozilo.setX(a);
+			return toString(vozilo.getX(),vozilo.getY());
+			
+			
+			
 		}
 
 

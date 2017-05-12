@@ -22,8 +22,6 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_fN(){
 
-
-
 		explorer.getVozilo().setX(0);
 		explorer.getVozilo().setY(0);
 
@@ -59,6 +57,18 @@ public class TestPlanetExplorer {
 		assertEquals(expected,explorer.executeCommand("l"));
 
 
+	}
+	
+	
+	@Test
+	public void test_r(){
+
+		explorer.getVozilo().setX(1);
+		explorer.getVozilo().setY(0);
+
+		String expected = "(" + (explorer.getVozilo().getX()+1) + "," + explorer.getVozilo().getY()  + ")";
+
+		assertEquals(expected,explorer.executeCommand("r"));
 
 
 	}
