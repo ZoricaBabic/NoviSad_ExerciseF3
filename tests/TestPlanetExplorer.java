@@ -49,6 +49,5 @@ public class TestPlanetExplorer {
 		
 		assertEquals(expected,explorer.executeCommand("f"));
 			
-		
 	}
 }

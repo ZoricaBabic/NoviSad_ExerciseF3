@@ -19,7 +19,7 @@ public class PlanetExplorer {
 		this.y=y;
 		this.obstacles=obstacles;
 		vozilo = new Vozilo(0,0);
-		
+
 
 		/*	x and y represent the size of the grid.
 		 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -42,30 +42,34 @@ public class PlanetExplorer {
 
 	public String executeCommand(String command){
 
-		
-		if(command=="f")
-			
+
+		if(command=="f"){
+
 			if(side=="N"){
 
 				int a = vozilo.getY();
 				a++;
 				vozilo.setY(a);
 				return toString(vozilo.getY(),vozilo.getX());
-				
+
 			} else if (side=="J"){
-				
+
 				int a = vozilo.getY();
 				a--;
 				vozilo.setY(a);
 				return toString(vozilo.getY(),vozilo.getX());
-				
-				
-			}
-			
-			
 
-			
-		
+			}
+
+
+		}
+
+
+
+
+
+
+
 
 
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
@@ -80,13 +84,13 @@ public class PlanetExplorer {
 
 		return null;
 	}
-	
-	
+
+
 	public String toString(int x, int y){
-		
+
 		return "(" + x + "," + y + ")";
 	}
-	
+
 
 	public int getX() {
 		return x;
@@ -132,5 +136,5 @@ public class PlanetExplorer {
 		this.vozilo = vozilo;
 	}
 
-	
+
 }
