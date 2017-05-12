@@ -1,0 +1,23 @@
+FileOpenedAction 1494611583468 PlanetExplorer.java 1245 2 1 0
+FileOpenedAction 1494611895227 TestPlanetExplorer.java 174 1 1 0
+FileOpenedAction 1494611902324 PlanetExplorerException.java 61 0 0 0
+RefactoringAction 1494612158937 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1494612170793 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1494612175957 PlanetExplorer.java ADD String obstacles FIELD
+RefactoringAction 1494612906295 PlanetExplorer.java ADD PlanetExplorer(int) METHOD
+RefactoringAction 1494612908884 PlanetExplorer.java RENAME PlanetExplorer(int)=>PlanetExplorer(int, int) METHOD
+RefactoringAction 1494612958368 PlanetExplorer.java RENAME PlanetExplorer(int, int)=>PlanetExplorer(int, int, String)/2 METHOD
+RefactoringAction 1494612965607 PlanetExplorer.java ADD String side FIELD
+RefactoringAction 1494612990864 PlanetExplorer.java REMOVE side FIELD
+RefactoringAction 1494613016151 PlanetExplorer.java ADD String side FIELD
+RefactoringAction 1494613020800 PlanetExplorer.java REMOVE side FIELD
+RefactoringAction 1494613045589 PlanetExplorer.java RENAME <initializer /1>=>String FIELD
+RefactoringAction 1494613088411 PlanetExplorer.java REMOVE executeCommand(String) METHOD
+RefactoringAction 1494613088411 PlanetExplorer.java REMOVE PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1494613088411 PlanetExplorer.java REMOVE PlanetExplorer(int, int, String)/2 METHOD
+RefactoringAction 1494613089971 PlanetExplorer.java ADD PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1494613089971 PlanetExplorer.java ADD PlanetExplorer(int, int, String)/2 METHOD
+RefactoringAction 1494613089971 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1494613125134 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)/2=>PlanetExplorer(int, int) METHOD
+RefactoringAction 1494613131842 PlanetExplorer.java RENAME PlanetExplorer(int, int)=>PlanetExplorer(int, int, String METHOD
+EditAction 1494613133324 PlanetExplorer.java 1564 3 8 0
