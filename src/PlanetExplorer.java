@@ -35,6 +35,7 @@ public class PlanetExplorer {
 
 		this.x=x;
 		this.y=y;
+		vozilo = new Vozilo(0,0);
 
 	}
 
@@ -43,19 +44,20 @@ public class PlanetExplorer {
 
 		PlanetExplorer ex = new PlanetExplorer(x,y);
 		
-
-		if(command=="f"){
+		if(command=="f")
 			
 			if(side=="N"){
 
-				vozilo.setX(vozilo.getX()+1);
+				int a = vozilo.getY();
+				a++;
+				vozilo.setX(a);
 				
 			} 
 			
 			
 
 			
-		}
+		
 
 
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
@@ -70,6 +72,13 @@ public class PlanetExplorer {
 
 		return null;
 	}
+	
+	
+	public String toString(int x, int y){
+		
+		return "(" + x + "," + y + ")";
+	}
+	
 
 	public int getX() {
 		return x;
@@ -95,11 +104,5 @@ public class PlanetExplorer {
 		this.obstacles = obstacles;
 	}
 
-	public String[] getSide() {
-		return side;
-	}
-
-	public void setSide(String[] side) {
-		this.side = side;
-	}
+	
 }

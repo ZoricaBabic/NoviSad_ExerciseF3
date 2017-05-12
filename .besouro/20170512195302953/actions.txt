@@ -90,3 +90,24 @@ CompilationAction 1494613744468 PlanetExplorer.java
 CompilationAction 1494613744468 PlanetExplorer.java
 CompilationAction 1494613744468 PlanetExplorer.java
 EditAction 1494613807212 Vozilo.java 327 5 6 0
+CompilationAction 1494613809974 PlanetExplorer.java
+CompilationAction 1494613809989 PlanetExplorer.java
+CompilationAction 1494613859816 PlanetExplorer.java
+CompilationAction 1494613860113 PlanetExplorer.java
+CompilationAction 1494613860113 PlanetExplorer.java
+RefactoringAction 1494613867663 TestPlanetExplorer.java REMOVE testConstructor() METHOD
+RefactoringAction 1494613875385 TestPlanetExplorer.java ADD void check_ FIELD
+RefactoringAction 1494613877959 TestPlanetExplorer.java RENAME check_=>void check_fN FIELD
+RefactoringAction 1494613878989 TestPlanetExplorer.java RENAME check_fN=>void check_fN() METHOD
+RefactoringAction 1494613915571 TestPlanetExplorer.java RENAME check_fN()=>void test_fN() METHOD
+RefactoringAction 1494613925571 PlanetExplorer.java REMOVE setSide(String METHOD
+RefactoringAction 1494613925587 PlanetExplorer.java REMOVE getSide() METHOD
+RefactoringAction 1494613954494 PlanetExplorer.java ADD String toString() METHOD
+RefactoringAction 1494613974665 PlanetExplorer.java REMOVE toString() METHOD
+RefactoringAction 1494613988643 PlanetExplorer.java ADD String toSt FIELD
+RefactoringAction 1494613991232 PlanetExplorer.java RENAME toSt=>String toString() METHOD
+RefactoringAction 1494614002589 PlanetExplorer.java RENAME toString()=>String toString(int, int) METHOD
+RefactoringAction 1494614049437 TestPlanetExplorer.java REMOVE test_fN() METHOD
+RefactoringAction 1494614060247 TestPlanetExplorer.java ADD void test_STring FIELD
+RefactoringAction 1494614062821 TestPlanetExplorer.java RENAME test_STring=>void test_String() METHOD
+EditAction 1494614168325 PlanetExplorer.java 2095 10 17 0
