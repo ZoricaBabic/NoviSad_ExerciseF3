@@ -72,4 +72,22 @@ public class TestPlanetExplorer {
 
 
 	}
+	
+	
+	@Test
+	public void test_run(){
+
+		explorer.getVozilo().setX(0);
+		explorer.getVozilo().setY(0);
+
+		String expected = "(" + (explorer.getVozilo().getX()+2) + "," + (explorer.getVozilo().getY()+1)  + ")";
+		explorer.executeCommand("f");
+		explorer.executeCommand("r");
+		
+		assertEquals(expected,explorer.executeCommand("r"));
+
+
+	}
+	
+	
 }

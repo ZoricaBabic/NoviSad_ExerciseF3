@@ -194,3 +194,12 @@ UnitTestSessionAction 1494616061462 TestPlanetExplorer.java OK
 RefactoringAction 1494616102803 TestPlanetExplorer.java ADD void test_l()/2 METHOD
 RefactoringAction 1494616105892 TestPlanetExplorer.java RENAME test_l()/2=>void test_r() METHOD
 EditAction 1494616117592 PlanetExplorer.java 2712 14 20 0
+UnitTestCaseAction 1494616121305 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494616121305 TestPlanetExplorer.java OK
+RefactoringAction 1494616190430 TestPlanetExplorer.java ADD void test_r()/2 METHOD
+RefactoringAction 1494616200227 TestPlanetExplorer.java RENAME test_r()/2=>void test_su() METHOD
+RefactoringAction 1494616201303 TestPlanetExplorer.java RENAME test_su()=>void test_() METHOD
+RefactoringAction 1494616203893 TestPlanetExplorer.java RENAME test_()=>void test_run() METHOD
+UnitTestCaseAction 1494616314226 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494616314226 TestPlanetExplorer.java OK
+EditAction 1494616466372 PlanetExplorer.java 2711 14 20 0
