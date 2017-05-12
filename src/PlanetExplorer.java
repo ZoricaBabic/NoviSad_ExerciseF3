@@ -43,7 +43,6 @@ public class PlanetExplorer {
 	public String executeCommand(String command){
 
 		
-		
 		if(command=="f")
 			
 			if(side=="N"){

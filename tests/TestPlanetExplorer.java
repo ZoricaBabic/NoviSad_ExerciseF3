@@ -25,6 +25,8 @@ public class TestPlanetExplorer {
 		
 		explorer.setSide("N");
 		
+		explorer.getVozilo().setX(0);
+		explorer.getVozilo().setY(0);
 		
 		String expected = "(" + explorer.getVozilo().getX() + "," + (explorer.getVozilo().getY()+1)  + ")";
 		
