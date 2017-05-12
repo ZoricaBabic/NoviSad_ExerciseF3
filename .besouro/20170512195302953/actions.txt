@@ -115,3 +115,12 @@ EditAction 1494614171726 TestPlanetExplorer.java 401 2 5 1
 UnitTestCaseAction 1494614177016 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494614177016 TestPlanetExplorer.java FAIL
 EditAction 1494614220417 PlanetExplorer.java 2138 10 17 0
+RefactoringAction 1494614233912 TestPlanetExplorer.java ADD void test_f FIELD
+RefactoringAction 1494614238561 TestPlanetExplorer.java RENAME test_f=>void test_fN FIELD
+RefactoringAction 1494614239606 TestPlanetExplorer.java RENAME test_fN=>void test_fN() METHOD
+RefactoringAction 1494614292665 PlanetExplorer.java ADD String getSide() METHOD
+RefactoringAction 1494614292680 PlanetExplorer.java ADD void setSide(String) METHOD
+RefactoringAction 1494614292696 PlanetExplorer.java ADD Vozilo getVozilo() METHOD
+RefactoringAction 1494614292696 PlanetExplorer.java ADD void setVozilo(Vozilo) METHOD
+RefactoringAction 1494614324085 TestPlanetExplorer.java ADD Vozilo vozilo FIELD
+EditAction 1494614632850 TestPlanetExplorer.java 657 3 9 2

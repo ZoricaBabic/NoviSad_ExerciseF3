@@ -5,6 +5,7 @@ import org.junit.Test;
 public class TestPlanetExplorer {
 	
 	PlanetExplorer explorer = new PlanetExplorer(3,3);
+	Vozilo vozilo;
 
 	@Test
 	public void test_executeCommand() {
@@ -21,5 +22,22 @@ public class TestPlanetExplorer {
 		
 		String expected = "(" + x + "," + y + ")";
 		assertEquals(expected,explorer.toString(x,y));
+	}
+	
+	@Test
+	public void test_fN(){
+		
+		vozilo=new Vozilo(0,0);
+		
+		explorer.setSide("N");
+		
+		
+		String expected = "(" + vozilo.getX() + "," + vozilo.getY()+1 + ")";
+		assertEquals(expected,explorer.executeCommand("f"));
+		
+		
+		
+		
+		
 	}
 }
